@@ -69,6 +69,9 @@ else {
     app.use(passport.session())
     app.use("/api/v1", router)
     app.use("/api/v1/task", taskRouter)
+    app.get("/",(req, res)=>{
+        return res.status(200).send("success")
+    })
     
     console.log = function (d) {
         fs.createWriteStream(__dirname + "/log.log", { flags: "a" }).write(utl.format(d) + "\n")
