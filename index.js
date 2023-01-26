@@ -72,6 +72,7 @@ app.use(session({
     cookie: {
         domain:domain,
         name: "session",
+        httpOnly:true,
         secure:secure==="https"?true:false,
         sameSite:"none",
         maxAge: 1000 * 60 * 60 * 24,
