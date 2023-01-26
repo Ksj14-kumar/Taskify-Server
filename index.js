@@ -70,7 +70,7 @@ app.use(session({
         collectionName: "sessions"
     }),
     cookie: {
-        domain:domain,
+        domain:process.env.UI_URL,
         name: "session",
         // httpOnly:true,
         // secure:secure==="https"?true:false,
