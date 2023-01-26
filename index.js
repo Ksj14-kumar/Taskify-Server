@@ -72,6 +72,7 @@ app.use(session({
         // domain:domain,
         name: "session",
         // secure:secure==="https"?true:false,
+        sameSite:"none",
         maxAge: 1000 * 60 * 60 * 24,
     }
 }))
