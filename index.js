@@ -45,8 +45,9 @@ mongoose.connect(URI, (err) => {
 })
 
 console.log(process.env.UI_URL)
-const domain= process.env.UI_URL.split("//")[1].split(".")[0]
+const domain= "https://taskify-web-app.netlify.app".split("//")[1]
 const secure=process.env.UI_URL.split("//")[0].split(":")[0]
+console.log(domain)
 console.log(secure)
 app.use(bodyParser.urlencoded({ extended: true, limit: "100mb" }))
 app.use(bodyParser.json({ limit: "30mb" }))
@@ -69,7 +70,7 @@ app.use(session({
         collectionName: "sessions"
     }),
     cookie: {
-        // domain:domain,
+        domain:domain,
         name: "session",
         secure:secure==="https"?true:false,
         sameSite:"none",
