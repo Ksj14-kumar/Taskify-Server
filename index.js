@@ -69,7 +69,7 @@ app.use(session({
         collectionName: "sessions"
     }),
     cookie: {
-        domain:domain,
+        // domain:domain,
         name: "session",
         secure:secure==="https"?true:false,
         maxAge: 1000 * 60 * 60 * 24,
