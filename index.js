@@ -14,6 +14,8 @@
 // else {
    
 // }
+
+
 const express = require("express")
 const app = express()
 const PORT = process.env.PORT || 5000
@@ -41,6 +43,11 @@ mongoose.connect(URI, (err) => {
         console.log("connected to db")
     }
 })
+
+console.log(process.env.UI_URL)
+const domain= process.env.UI_URL.split("//")[1].split(".")[0]
+const secure=process.env.UI_URL.split("//")[0].split(":")[0]
+console.log(secure)
 app.use(bodyParser.urlencoded({ extended: true, limit: "100mb" }))
 app.use(bodyParser.json({ limit: "30mb" }))
 app.use(cors({
@@ -62,8 +69,10 @@ app.use(session({
         collectionName: "sessions"
     }),
     cookie: {
+        domain:domain,
         name: "session",
-        maxAge: 1000 * 60 * 60 * 24
+        secure:secure==="https"?true:false,
+        maxAge: 1000 * 60 * 60 * 24,
     }
 }))
 require("./Authentication/Auth")(passport)
