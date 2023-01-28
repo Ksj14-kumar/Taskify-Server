@@ -44,6 +44,13 @@ mongoose.connect(URI, (err) => {
     }
 })
 
+console.log(__dirname)
+const htmlFile= path.join(__dirname+"/view/")
+app.use(express.static(path.join(__dirname+"/view/")))
+
+
+
+
 console.log(process.env.UI_URL)
 const domain= "https://taskify-web-app.netlify.app".split("//")[1]
 const secure=process.env.UI_URL.split("//")[0].split(":")[0]
@@ -52,7 +59,7 @@ console.log(secure)
 app.use(bodyParser.urlencoded({ extended: true, limit: "100mb" }))
 app.use(bodyParser.json({ limit: "30mb" }))
 app.use(cors({
-    origin: process.env.UI_URL,
+    origin: "*",
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'HEAD', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Origin', 'X-Requested-With', 'Accept', 'x-client-key', 'x-client-token', 'x-client-secret', 'Authorization', "Access-Control-Allow-Credentials"],
     credentials: true
@@ -70,7 +77,7 @@ app.use(session({
         collectionName: "sessions"
     }),
     cookie: {
-        domain:process.env.UI_URL,
+        // domain:process.env.UI_URL,
         name: "session",
         // httpOnly:true,
         // secure:secure==="https"?true:false,
@@ -84,16 +91,16 @@ app.use(passport.session())
 app.use("/api/v1", router)
 app.use("/api/v1/task", taskRouter)
 app.get("/",(req, res)=>{
-    return res.status(200).send("success")
+    return res.sendFile(htmlFile+"index.html")
 })
 
 
-if(process.env.NODE_ENV==="production"){
-    app.use(express.static("frontend/dist"))
-    app.get("*",(req, res)=>{
-        res.sendFile(path.resolve(__dirname,"frontend","dist","index.html"))
-    })
-}
+// if(process.env.NODE_ENV==="production"){
+//     app.use(express.static("frontend/dist"))
+//     app.get("*",(req, res)=>{
+//         res.sendFile(path.resolve(__dirname,"frontend","dist","index.html"))
+//     })
+// }
 
 console.log = function (d) {
     fs.createWriteStream(__dirname + "/log.log", { flags: "a" }).write(utl.format(d) + "\n")

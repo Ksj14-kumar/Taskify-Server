@@ -2,3 +2,371 @@ server is start at http://127.0.0.1:5000
 connected to db
 server is start at http://127.0.0.1:5000
 connected to db
+server is start at http://127.0.0.1:5000
+connected to db
+server is start at http://127.0.0.1:5000
+connected to db
+server is start at http://127.0.0.1:5000
+connected to db
+server is start at http://127.0.0.1:5000
+connected to db
+undefined
+user
+{
+  profile: {
+    id: '107136037505759736683',
+    displayName: 'Sanju Kumar',
+    name: { familyName: 'Kumar', givenName: 'Sanju' },
+    emails: [ [Object] ],
+    photos: [ [Object] ],
+    provider: 'google',
+    _raw: '{\n' +
+      '  "sub": "107136037505759736683",\n' +
+      '  "name": "Sanju Kumar",\n' +
+      '  "given_name": "Sanju",\n' +
+      '  "family_name": "Kumar",\n' +
+      '  "picture": "https://lh3.googleusercontent.com/a/AEdFTp4t36IkgXFlvGRbW-Vt6sXqZRImtAruC-vBQJwboQ\\u003ds96-c",\n' +
+      '  "email": "sanjucom14998@gmail.com",\n' +
+      '  "email_verified": true,\n' +
+      '  "locale": "en"\n' +
+      '}',
+    _json: {
+      sub: '107136037505759736683',
+      name: 'Sanju Kumar',
+      given_name: 'Sanju',
+      family_name: 'Kumar',
+      picture: 'https://lh3.googleusercontent.com/a/AEdFTp4t36IkgXFlvGRbW-Vt6sXqZRImtAruC-vBQJwboQ=s96-c',
+      email: 'sanjucom14998@gmail.com',
+      email_verified: true,
+      locale: 'en'
+    }
+  },
+  refreshToken: undefined,
+  accessToken: 'ya29.a0AVvZVsooSX7TSZEXoaGgPBgKtNypi475H_Rfjdfp6U-2jtdlap8YTzp7i3p-LRTEKlDxv52B0AzR1EyQxKKz-e7030FAvku8eXXG1Jmm-xHMD-ViCaYwpKR0y6izfX1vKMmbVhIWZAL_vJbaA7zpqnLiWD-caCgYKAYwSARMSFQGbdwaIPCf60NiLXNxOG03NIB76Rw0163'
+}
+serielize
+{
+  _id: new ObjectId("63d13dd0cc1667b652242968"),
+  name: 'Sanju Kumar',
+  googleId: '107136037505759736683',
+  provider: 'google',
+  picture: 'https://lh3.googleusercontent.com/a/AEdFTp4t36IkgXFlvGRbW-Vt6sXqZRImtAruC-vBQJwboQ=s96-c',
+  __v: 0
+}
+server is start at http://127.0.0.1:5000
+connected to db
+{
+  profile: {
+    id: '107136037505759736683',
+    displayName: 'Sanju Kumar',
+    name: { familyName: 'Kumar', givenName: 'Sanju' },
+    emails: [ [Object] ],
+    photos: [ [Object] ],
+    provider: 'google',
+    _raw: '{\n' +
+      '  "sub": "107136037505759736683",\n' +
+      '  "name": "Sanju Kumar",\n' +
+      '  "given_name": "Sanju",\n' +
+      '  "family_name": "Kumar",\n' +
+      '  "picture": "https://lh3.googleusercontent.com/a/AEdFTp4t36IkgXFlvGRbW-Vt6sXqZRImtAruC-vBQJwboQ\\u003ds96-c",\n' +
+      '  "email": "sanjucom14998@gmail.com",\n' +
+      '  "email_verified": true,\n' +
+      '  "locale": "en"\n' +
+      '}',
+    _json: {
+      sub: '107136037505759736683',
+      name: 'Sanju Kumar',
+      given_name: 'Sanju',
+      family_name: 'Kumar',
+      picture: 'https://lh3.googleusercontent.com/a/AEdFTp4t36IkgXFlvGRbW-Vt6sXqZRImtAruC-vBQJwboQ=s96-c',
+      email: 'sanjucom14998@gmail.com',
+      email_verified: true,
+      locale: 'en'
+    }
+  },
+  refreshToken: undefined,
+  accessToken: 'ya29.a0AVvZVsoV7kddIAYoaUGZytH0nqeCWrK4bVQiZLo9Izj4nc-wHd-MXit42-_4FcqE51i3uzWlFo_QfBeoNvACd41wYaV_Plo1jKP8Wm9Z3VReN66JDFBcrZeKQVN_5xWfrOATpsNV0d1yCr60FDsEaYsjOAFEaCgYKAbkSARMSFQGbdwaIE6nUoN-7jM52c-Qcf6K7nA0163'
+}
+serielize
+{
+  _id: new ObjectId("63d13dd0cc1667b652242968"),
+  name: 'Sanju Kumar',
+  googleId: '107136037505759736683',
+  provider: 'google',
+  picture: 'https://lh3.googleusercontent.com/a/AEdFTp4t36IkgXFlvGRbW-Vt6sXqZRImtAruC-vBQJwboQ=s96-c',
+  __v: 0
+}
+server is start at http://127.0.0.1:5000
+connected to db
+{
+  profile: {
+    id: '116212192293016383924',
+    displayName: 'Sanju Kumar',
+    name: { familyName: 'Kumar', givenName: 'Sanju' },
+    emails: [ [Object] ],
+    photos: [ [Object] ],
+    provider: 'google',
+    _raw: '{\n' +
+      '  "sub": "116212192293016383924",\n' +
+      '  "name": "Sanju Kumar",\n' +
+      '  "given_name": "Sanju",\n' +
+      '  "family_name": "Kumar",\n' +
+      '  "picture": "https://lh3.googleusercontent.com/a/AEdFTp5W5uQi4TiX6M-d5czMcYAiKIM9Wbfx3_oB0-tL\\u003ds96-c",\n' +
+      '  "email": "ksj14998@gmail.com",\n' +
+      '  "email_verified": true,\n' +
+      '  "locale": "en"\n' +
+      '}',
+    _json: {
+      sub: '116212192293016383924',
+      name: 'Sanju Kumar',
+      given_name: 'Sanju',
+      family_name: 'Kumar',
+      picture: 'https://lh3.googleusercontent.com/a/AEdFTp5W5uQi4TiX6M-d5czMcYAiKIM9Wbfx3_oB0-tL=s96-c',
+      email: 'ksj14998@gmail.com',
+      email_verified: true,
+      locale: 'en'
+    }
+  },
+  refreshToken: undefined,
+  accessToken: 'ya29.a0AVvZVsrAxQuyFFzM8H_6Ya05ppsZGPIXKSUyb1wnNmDNqJnPqA9U3HL7Wf4mdtiml-8_QnLBBPMgm0kVj9EgOMvt_qDy48DXGZ2Be2he1o9Sq8C5Bsf-PWdMbiFACGZ4C4iFAwuognyrYEcDeLdSXvOSMxkOaCgYKAb8SARMSFQGbdwaIdaOKX1KvSeN2sojxfn38jA0163'
+}
+{
+  _id: new ObjectId("63d14b4e6edd049ee89671a6"),
+  name: 'Sanju Kumar',
+  googleId: '116212192293016383924',
+  provider: 'google',
+  picture: 'https://lh3.googleusercontent.com/a/AEdFTp5W5uQi4TiX6M-d5czMcYAiKIM9Wbfx3_oB0-tL=s96-c',
+  __v: 0
+}
+serielize
+deserize
+deserize
+user
+{
+  _id: new ObjectId("63d14b4e6edd049ee89671a6"),
+  name: 'Sanju Kumar',
+  googleId: '116212192293016383924',
+  provider: 'google',
+  picture: 'https://lh3.googleusercontent.com/a/AEdFTp5W5uQi4TiX6M-d5czMcYAiKIM9Wbfx3_oB0-tL=s96-c',
+  __v: 0
+}
+[
+  {
+    _id: new ObjectId("63d14b896edd049ee89671b0"),
+    taskId: '7ac2e282-e0c5-46ed-a894-343aef466f6a',
+    task: 'python',
+    time: 1674660786865,
+    status: 'done',
+    header: '',
+    userId: '63d14b4e6edd049ee89671a6',
+    __v: 0
+  },
+  {
+    _id: new ObjectId("63d14b916edd049ee89671b3"),
+    taskId: 'f8444a1d-4390-4bd1-a78c-ce7e5c5b03c9',
+    task: 'Java',
+    time: 1674660787737,
+    status: 'deleted',
+    header: '',
+    userId: '63d14b4e6edd049ee89671a6',
+    __v: 0
+  },
+  {
+    _id: new ObjectId("63d14b956edd049ee89671b6"),
+    taskId: '77f3b907-51ab-41d2-88eb-3241fe4b2498',
+    task: 'SQL',
+    time: 1674660784160,
+    status: 'done',
+    header: '',
+    userId: '63d14b4e6edd049ee89671a6',
+    __v: 0
+  }
+]
+deserize
+deserize
+deserize
+user
+{
+  _id: new ObjectId("63d14b4e6edd049ee89671a6"),
+  name: 'Sanju Kumar',
+  googleId: '116212192293016383924',
+  provider: 'google',
+  picture: 'https://lh3.googleusercontent.com/a/AEdFTp5W5uQi4TiX6M-d5czMcYAiKIM9Wbfx3_oB0-tL=s96-c',
+  __v: 0
+}
+[
+  {
+    _id: new ObjectId("63d14b896edd049ee89671b0"),
+    taskId: '7ac2e282-e0c5-46ed-a894-343aef466f6a',
+    task: 'python',
+    time: 1674660786865,
+    status: 'done',
+    header: '',
+    userId: '63d14b4e6edd049ee89671a6',
+    __v: 0
+  },
+  {
+    _id: new ObjectId("63d14b916edd049ee89671b3"),
+    taskId: 'f8444a1d-4390-4bd1-a78c-ce7e5c5b03c9',
+    task: 'Java',
+    time: 1674660787737,
+    status: 'deleted',
+    header: '',
+    userId: '63d14b4e6edd049ee89671a6',
+    __v: 0
+  },
+  {
+    _id: new ObjectId("63d14b956edd049ee89671b6"),
+    taskId: '77f3b907-51ab-41d2-88eb-3241fe4b2498',
+    task: 'SQL',
+    time: 1674660784160,
+    status: 'done',
+    header: '',
+    userId: '63d14b4e6edd049ee89671a6',
+    __v: 0
+  }
+]
+deserize
+server is start at http://127.0.0.1:5000
+connected to db
+deserize
+deserize
+user
+{
+  _id: new ObjectId("63d14b4e6edd049ee89671a6"),
+  name: 'Sanju Kumar',
+  googleId: '116212192293016383924',
+  provider: 'google',
+  picture: 'https://lh3.googleusercontent.com/a/AEdFTp5W5uQi4TiX6M-d5czMcYAiKIM9Wbfx3_oB0-tL=s96-c',
+  __v: 0
+}
+[
+  {
+    _id: new ObjectId("63d14b896edd049ee89671b0"),
+    taskId: '7ac2e282-e0c5-46ed-a894-343aef466f6a',
+    task: 'python',
+    time: 1674660786865,
+    status: 'done',
+    header: '',
+    userId: '63d14b4e6edd049ee89671a6',
+    __v: 0
+  },
+  {
+    _id: new ObjectId("63d14b916edd049ee89671b3"),
+    taskId: 'f8444a1d-4390-4bd1-a78c-ce7e5c5b03c9',
+    task: 'Java',
+    time: 1674660787737,
+    status: 'deleted',
+    header: '',
+    userId: '63d14b4e6edd049ee89671a6',
+    __v: 0
+  },
+  {
+    _id: new ObjectId("63d14b956edd049ee89671b6"),
+    taskId: '77f3b907-51ab-41d2-88eb-3241fe4b2498',
+    task: 'SQL',
+    time: 1674660784160,
+    status: 'done',
+    header: '',
+    userId: '63d14b4e6edd049ee89671a6',
+    __v: 0
+  }
+]
+deserize
+user
+{
+  _id: new ObjectId("63d14b4e6edd049ee89671a6"),
+  name: 'Sanju Kumar',
+  googleId: '116212192293016383924',
+  provider: 'google',
+  picture: 'https://lh3.googleusercontent.com/a/AEdFTp5W5uQi4TiX6M-d5czMcYAiKIM9Wbfx3_oB0-tL=s96-c',
+  __v: 0
+}
+{
+  id: '5050a60c-1b67-4c95-8284-aadc282fcd8e',
+  task: 'python',
+  status: 'not_done',
+  header: '',
+  time: 1674901563077,
+  userId: '63d14b4e6edd049ee89671a6'
+}
+deserize
+deserize
+user
+{
+  _id: new ObjectId("63d14b4e6edd049ee89671a6"),
+  name: 'Sanju Kumar',
+  googleId: '116212192293016383924',
+  provider: 'google',
+  picture: 'https://lh3.googleusercontent.com/a/AEdFTp5W5uQi4TiX6M-d5czMcYAiKIM9Wbfx3_oB0-tL=s96-c',
+  __v: 0
+}
+{
+  id: 'c9ab14c1-4abc-475a-beb8-e221f2e90c4f',
+  task: 'Java',
+  status: 'not_done',
+  header: '',
+  time: 1674901571579,
+  userId: '63d14b4e6edd049ee89671a6'
+}
+deserize
+user
+{
+  id: 'b05336cb-9062-416a-b701-a5ce11fef932',
+  task: 'Task',
+  status: 'not_done',
+  header: '',
+  time: 1674901585426,
+  userId: '63d14b4e6edd049ee89671a6'
+}
+{
+  _id: new ObjectId("63d14b4e6edd049ee89671a6"),
+  name: 'Sanju Kumar',
+  googleId: '116212192293016383924',
+  provider: 'google',
+  picture: 'https://lh3.googleusercontent.com/a/AEdFTp5W5uQi4TiX6M-d5czMcYAiKIM9Wbfx3_oB0-tL=s96-c',
+  __v: 0
+}
+deserize
+{
+  _id: new ObjectId("63d14b4e6edd049ee89671a6"),
+  name: 'Sanju Kumar',
+  googleId: '116212192293016383924',
+  provider: 'google',
+  picture: 'https://lh3.googleusercontent.com/a/AEdFTp5W5uQi4TiX6M-d5czMcYAiKIM9Wbfx3_oB0-tL=s96-c',
+  __v: 0
+}
+user
+null
+deserize
+user
+{
+  _id: new ObjectId("63d14b4e6edd049ee89671a6"),
+  name: 'Sanju Kumar',
+  googleId: '116212192293016383924',
+  provider: 'google',
+  picture: 'https://lh3.googleusercontent.com/a/AEdFTp5W5uQi4TiX6M-d5czMcYAiKIM9Wbfx3_oB0-tL=s96-c',
+  __v: 0
+}
+null
+deserize
+user
+{
+  _id: new ObjectId("63d14b4e6edd049ee89671a6"),
+  name: 'Sanju Kumar',
+  googleId: '116212192293016383924',
+  provider: 'google',
+  picture: 'https://lh3.googleusercontent.com/a/AEdFTp5W5uQi4TiX6M-d5czMcYAiKIM9Wbfx3_oB0-tL=s96-c',
+  __v: 0
+}
+null
+deserize
+user
+{
+  _id: new ObjectId("63d14b4e6edd049ee89671a6"),
+  name: 'Sanju Kumar',
+  googleId: '116212192293016383924',
+  provider: 'google',
+  picture: 'https://lh3.googleusercontent.com/a/AEdFTp5W5uQi4TiX6M-d5czMcYAiKIM9Wbfx3_oB0-tL=s96-c',
+  __v: 0
+}

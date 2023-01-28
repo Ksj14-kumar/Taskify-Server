@@ -4,9 +4,7 @@
   "main": "index.js",
   "scripts": {
     "node": "nodemon -L index.js",
-    "start": "node index.js",
-    "client": "npm start --prefix frontend",
-    "deve":"concurrently \"npm run start\" \"npm run client\""
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
