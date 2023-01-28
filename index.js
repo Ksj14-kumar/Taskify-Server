@@ -45,7 +45,7 @@ mongoose.connect(URI, (err) => {
 })
 
 console.log(__dirname)
-const htmlFile= path.join(__dirname+"/view/")
+const htmlFile= path.join(__dirname+"/view")
 app.use(express.static(path.join(__dirname+"/view/")))
 
 

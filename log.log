@@ -370,3 +370,7 @@ user
   picture: 'https://lh3.googleusercontent.com/a/AEdFTp5W5uQi4TiX6M-d5czMcYAiKIM9Wbfx3_oB0-tL=s96-c',
   __v: 0
 }
+server is start at http://127.0.0.1:5000
+connected to db
+server is start at http://127.0.0.1:5000
+connected to db
