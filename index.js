@@ -52,10 +52,10 @@ app.use(express.static(path.join(__dirname+"/view/")))
 
 
 console.log(process.env.UI_URL)
-const domain= "https://taskify-web-app.netlify.app".split("//")[1]
-const secure=process.env.UI_URL.split("//")[0].split(":")[0]
-console.log(domain)
-console.log(secure)
+// const domain= "https://taskify-web-app.netlify.app".split("//")[1]
+// const secure=process.env.UI_URL.split("//")[0].split(":")[0]
+// console.log(domain)
+// console.log(secure)
 app.use(bodyParser.urlencoded({ extended: true, limit: "100mb" }))
 app.use(bodyParser.json({ limit: "30mb" }))
 app.use(cors({
@@ -91,7 +91,7 @@ app.use(passport.session())
 app.use("/api/v1", router)
 app.use("/api/v1/task", taskRouter)
 app.get("/",(req, res)=>{
-    return res.sendFile(htmlFile+"index.html")
+    return res.sendFile(htmlFile+"/index.html")
 })
 
 
