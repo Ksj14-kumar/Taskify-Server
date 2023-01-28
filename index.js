@@ -87,6 +87,14 @@ app.get("/",(req, res)=>{
     return res.status(200).send("success")
 })
 
+
+if(process.env.NODE_ENV==="production"){
+    app.use(express.static("frontend/dist"))
+    app.get("*",(req, res)=>{
+        res.sendFile(path.resolve(__dirname,"frontend","dist","index.html"))
+    })
+}
+
 console.log = function (d) {
     fs.createWriteStream(__dirname + "/log.log", { flags: "a" }).write(utl.format(d) + "\n")
     process.stdout.write(utl.format(d) + "\n")

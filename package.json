@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon -L index.js",
-    "start": "node index.js"
+    "node": "nodemon -L index.js",
+    "start": "node index.js",
+    "client": "npm start --prefix frontend",
+    "deve":"concurrently \"npm run start\" \"npm run client\""
   },
   "keywords": [],
   "author": "",
@@ -27,6 +29,7 @@
     "passport-google-oauth20": "^2.0.0"
   },
   "devDependencies": {
+    "concurrently": "^7.6.0",
     "nodemon": "^2.0.20"
   }
 }

@@ -1,0 +1,2 @@
+::1 - - [28/Jan/2023:04:48:44 +0000] "GET / HTTP/1.1" 200 7 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.1.1043 (beta) Yowser/2.5 Safari/537.36"
+::1 - - [28/Jan/2023:04:48:45 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 YaBrowser/23.1.1.1043 (beta) Yowser/2.5 Safari/537.36"
