@@ -45,7 +45,7 @@ mongoose.connect(URI, (err) => {
 })
 
 console.log(__dirname)
-app.use("/",express.static(path.resolve(__dirname,"view")))
+app.use(express.static(path.join(__dirname,"view")))
 
 
 
@@ -89,7 +89,7 @@ app.use(passport.initialize())
 app.use(passport.session())
 app.use("/api/v1", router)
 app.use("/api/v1/task", taskRouter)
-app.get("/",(req, res)=>{
+app.get("*",(req, res)=>{
     return res.sendFile(__dirname,"/view/index.html")
 })
 
