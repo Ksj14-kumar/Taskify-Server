@@ -1,3 +1,6 @@
+const passport = require("passport")
+
+
 module.exports.success=  async (req, res) => {
     try {
         if (req.isAuthenticated()) {
@@ -11,6 +14,8 @@ module.exports.success=  async (req, res) => {
         return res.status(500).json({ message: "something error occured" })
     }
 }
+
+
 module.exports.failed=async (req, res) => {
     try {
         return res.status(200).json({ message: "login failed" })
